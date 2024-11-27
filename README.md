@@ -8,7 +8,9 @@ https://youtu.be/U_Af8HGw1Hk
 
 # 1、项目介绍
 ## 1.1、本次分享介绍
-CrewAI新版本支持使用Knowledge属性将txt、PDF、CSV、Excel、JSON等多种数据格式内容及多文件混合作为知识增强知识库提供给Crew中的Agent使用                      
+CrewAI新版本支持使用Knowledge属性将txt、PDF、CSV、Excel、JSON等多种数据格式内容及多文件混合作为知识增强知识库提供给Crew中的Agent使用           
+**本项目相关视频链接:**                           
+https://youtu.be/zSsIWdjXe5g                                
 **本次分享的测试用例如下:**                               
 (1)单个短字符串创建知识库              
 (2)单个长字符串创建知识库                   
