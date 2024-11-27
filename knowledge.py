@@ -547,9 +547,7 @@ def test_pdf_knowledge_source():
     # 获取当前位置路径
     current_dir = Path(__file__).parent
     # 指定到文件路径
-    pdf_path = current_dir / "files/crewai_quickstart.pdf"
-    # pdf_path = current_dir / "files/pdf.pdf"
-    print(pdf_path)
+    pdf_path = current_dir / "files/data.pdf"
 
     pdf_source = PDFKnowledgeSource(
         file_path=pdf_path, metadata={"preference": "personal"}
@@ -583,8 +581,7 @@ def test_pdf_knowledge_source():
         }
     )
 
-    crew.kickoff(inputs={"question": "How do you create a crew?"})
-    # crew.kickoff(inputs={"question": "张三九的基本信息?"})
+    crew.kickoff(inputs={"question": "张三九的基本信息?"})
 
 
 # 11、CSV文件创建知识库
@@ -736,7 +733,7 @@ if __name__ == '__main__':
     # test_multiple_short_files()
     # test_multiple_2k_character_files()
     # test_hybrid_string_and_files()
-    # test_pdf_knowledge_source()
     # test_csv_knowledge_source()
     # test_json_knowledge_source()
     # test_excel_knowledge_source()
+    # test_pdf_knowledge_source()
